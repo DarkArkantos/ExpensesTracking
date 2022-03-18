@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace ExpensesTracking.ViewModels
 {
-    public class ViewModelsExtension
+    public static class ViewModelsExtension
     {
+        public static IServiceCollection AddViewModelsLayer(this IServiceCollection services)
+        {
 
+            //services.AddTransient<>
+
+            return services;
+        }
     }
 }

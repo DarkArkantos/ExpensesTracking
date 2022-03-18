@@ -12,7 +12,6 @@ namespace ExpensesTracking.Models
         public List<Income> Incomes { get; set; }
         public List<Expense> Expenses { get; set; }
         public List<CreditCard> CreditCards { get; set; }
-        public List<RecurrentMovement> RecurrentExpenses { get; set; }
-        public List<RecurrentMovement> RecurrentIncomes { get; set; }
+        public List<RecurrentMovement> RecurrentMovements { get; set; }
     }
 }

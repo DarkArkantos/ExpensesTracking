@@ -1,4 +1,7 @@
-﻿namespace ExpensesTracking;
+﻿using ExpensesTracking.Repository;
+using ExpensesTracking.ViewModels;
+
+namespace ExpensesTracking;
 
 public static class MauiProgram
 {
@@ -11,6 +14,9 @@ public static class MauiProgram
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 			});
+
+		builder.Services.AddRepositoryLayer();
+		builder.Services.AddViewModelsLayer();
 
 		return builder.Build();
 	}
