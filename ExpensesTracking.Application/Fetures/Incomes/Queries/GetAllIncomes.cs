@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExpensesTracking.Models
+namespace ExpensesTracking.Application.Fetures.Incomes.Queries
 {
-    public class Income: BaseMovement
+    internal class GetAllIncomes
     {
     }
 }

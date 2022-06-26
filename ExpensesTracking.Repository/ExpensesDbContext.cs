@@ -1,4 +1,4 @@
-﻿using ExpensesTracking.Models;
+﻿using ExpensesTracking.Models.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

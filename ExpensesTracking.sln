@@ -5,11 +5,13 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpensesTracking", "ExpensesTracking\ExpensesTracking.csproj", "{388B8883-EE8B-4298-9A81-1CA7776ADAED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpensesTracking.Models", "ExpensesTracking.Models\ExpensesTracking.Models.csproj", "{095D2029-6416-407C-85B6-5E16F4BFD79B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpensesTracking.Domain", "ExpensesTracking.Models\ExpensesTracking.Domain.csproj", "{095D2029-6416-407C-85B6-5E16F4BFD79B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpensesTracking.Repository", "ExpensesTracking.Repository\ExpensesTracking.Repository.csproj", "{21D75B7C-C533-4295-A328-3E029678F0B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpensesTracking.Repository", "ExpensesTracking.Repository\ExpensesTracking.Repository.csproj", "{21D75B7C-C533-4295-A328-3E029678F0B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpensesTracking.ViewModels", "ExpensesTracking.ViewModels\ExpensesTracking.ViewModels.csproj", "{CEB6833D-72F2-4147-B4F1-2E0C9E305378}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpensesTracking.ViewModels", "ExpensesTracking.ViewModels\ExpensesTracking.ViewModels.csproj", "{CEB6833D-72F2-4147-B4F1-2E0C9E305378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpensesTracking.Application", "ExpensesTracking.Application\ExpensesTracking.Application.csproj", "{81C43CD1-49B1-46BA-BA2B-7B929E1A935F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{CEB6833D-72F2-4147-B4F1-2E0C9E305378}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEB6833D-72F2-4147-B4F1-2E0C9E305378}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEB6833D-72F2-4147-B4F1-2E0C9E305378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C43CD1-49B1-46BA-BA2B-7B929E1A935F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C43CD1-49B1-46BA-BA2B-7B929E1A935F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C43CD1-49B1-46BA-BA2B-7B929E1A935F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C43CD1-49B1-46BA-BA2B-7B929E1A935F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

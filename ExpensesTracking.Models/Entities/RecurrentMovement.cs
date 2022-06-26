@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExpensesTracking.Models
+namespace ExpensesTracking.Models.Entities
 {
-    public class RecurrentMovement: BaseMovement
+    public class RecurrentMovement : BaseMovement
     {
         public MovementType MovementType { get; set; }
         public DateTime From { get; set; }

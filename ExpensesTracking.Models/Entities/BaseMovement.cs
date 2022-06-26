@@ -1,10 +1,11 @@
-﻿using System;
+﻿using ExpensesTracking.Models.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExpensesTracking.Models
+namespace ExpensesTracking.Models.Entities
 {
     public class BaseMovement
     {
@@ -23,6 +24,21 @@ namespace ExpensesTracking.Models
         /// Value paid
         /// </summary>
         public decimal Value { get; set; }
+
+        /// <summary>
+        /// Currency in which this transaction ocurred
+        /// </summary>
+        public Currency Currency { get; set; }
+
+        /// <summary>
+        /// Conversion rate defined at the time of processing the transaction
+        /// </summary>
+        public decimal CurrencyConversion { get; set; }
+
+        /// <summary>
+        /// Value in the local currency.
+        /// </summary>
+        public decimal ValueInLocalCurrency => CurrencyConversion * Value;
 
         /// <summary>
         /// Date where it ocurred

@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExpensesTracking.Models
+namespace ExpensesTracking.Application.Fetures.Incomes.Commands
 {
-    public class Expense: BaseMovement
+    internal class RegisterIncomeCommand
     {
-        public bool PaidWithCreditCard { get; set; }
     }
 }

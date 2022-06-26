@@ -56,6 +56,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <PackageReference Include="Microsoft.Graphics.Win2D" Version="1.0.3.1" />
+	  <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.1.1" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <ProjectReference Include="..\ExpensesTracking.Repository\ExpensesTracking.Repository.csproj" />
 	  <ProjectReference Include="..\ExpensesTracking.ViewModels\ExpensesTracking.ViewModels.csproj" />
 	</ItemGroup>
