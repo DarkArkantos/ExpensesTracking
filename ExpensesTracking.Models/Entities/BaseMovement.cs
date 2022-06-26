@@ -1,4 +1,5 @@
-﻿using ExpensesTracking.Models.Enums;
+﻿using ExpensesTracking.Domain.Enums;
+using ExpensesTracking.Models.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;

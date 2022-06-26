@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExpensesTracking.Models.Entities
+namespace ExpensesTracking.Application.Enums
 {
     public enum Category
     {
